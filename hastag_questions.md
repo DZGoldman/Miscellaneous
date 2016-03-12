@@ -1,4 +1,5 @@
-### Questions
+## Hashtag Quiz
+##### Daniel Goldman
 
 1. HTTP and HTTPS are two ways of sending a request from a browser to an external server. The difference between them is that an HTTPS is encrypted and thus the data in the request itself is more secure.
 
@@ -104,7 +105,7 @@ This is simply a function definition; the function is not invoked. The value of 
  </html>
  ```
 
-2. 
+2.
  - *Why is caching a problem for the analytics company?*
  - Once the pixel is cached by the browser, on subsequent visits to the site from that source, the pixel des not need to loaded from the customers server; it is simply retrieved from the browser cache. Thus, these subsequent visits will not get counted by the tracker.
 
