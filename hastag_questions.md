@@ -12,6 +12,7 @@
 5. Responsive design refers to creating CSS that reacts to changes in a webpage, particular in terms of window size. A common example is to have images shrink or disappear as a window’s size is decreased to make more room for text.
 
 6.
+
 ```css
 div {background:#fff;}  
 ```
@@ -105,8 +106,7 @@ This is simply a function definition; the function is not invoked. The value of 
  </html>
  ```
 
-2.
- - *Why is caching a problem for the analytics company?*
+2. - *Why is caching a problem for the analytics company?*
  - Once the pixel is cached by the browser, on subsequent visits to the site from that source, the pixel des not need to loaded from the customers server; it is simply retrieved from the browser cache. Thus, these subsequent visits will not get counted by the tracker.
 
  - *How could you prevent browser caching? (use any technique(s) you want)*
