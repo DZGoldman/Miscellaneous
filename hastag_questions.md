@@ -11,29 +11,35 @@
 
 5. Responsive design refers to creating CSS that reacts to changes in a webpage, particular in terms of window size. A common example is to have images shrink or disappear as a window’s size is decreased to make more room for text.
 
-6. ```css
-div {background:#fff;}  
-```
-Sets the background color for all HTML div tags.
-```css
-#div {background:#fff;}
-```
-Sets the background color for the HTML element with an ID of “div”.
-```css
-.div {background:#fff;}
-```
-Sets the background color for all HTML elements with a class of “div”.
+6. *What is the difference between these 3 CSS rules?*
 
-7. ```html
-<script src=”http://example.com/whatever.js”></script>
-```
-Runs the JavaScript code in the “whatever.js” file (assuming such a file exists).
-```html
-<script>var whatever = true</script>
-```
-Runs the JavaScript code written in the .html file itself; in this case the JavaScript code simply sets the variable “whatever” to the “true” Boolean.
+  ```css
+  div {background:#fff;}  
+  ```
+  Sets the background color for all HTML div tags.
+  ```css
+  #div {background:#fff;}
+  ```
+  Sets the background color for the HTML element with an ID of “div”.
+  ```css
+  .div {background:#fff;}
+  ```
+  Sets the background color for all HTML elements with a class of "div".
+7. *What is the difference between these 2 uses of the script tag?*
 
-8. ```js
+  ```html
+  <script src=”http://example.com/whatever.js”></script>
+  ```
+  Runs the JavaScript code in the “whatever.js” file (assuming such a file exists).
+
+  ```html
+  <script>var whatever = true</script>
+  ```
+  Runs the JavaScript code written in the .html file itself; in this case the JavaScript code simply sets the variable “whatever” to the “true” Boolean.
+
+8. *What is the difference between these two javascript snippets?*
+
+ ```js
 var x = function(){
 Return 1+1;
 }();
