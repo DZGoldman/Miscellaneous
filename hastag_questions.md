@@ -39,18 +39,18 @@
 
 8. *What is the difference between these two javascript snippets?*
 
- ```js
-var x = function(){
-Return 1+1;
-}();
-```
-This is an “iffe”; a function that is defined and then immediately invoked. The value of x is set to the value of the output of the function, which is 2.
-```js
-var y= function(){
-Return 1+1
-};
-```
-This is simply a function definition; the function is not invoked. The value of y is the function itself; the function can be invoked by running y().  
+   ```js
+  var x = function(){
+  Return 1+1;
+  }();
+  ```
+  This is an “iffe”; a function that is defined and then immediately invoked. The value of x is set to the value of the output of the function, which is 2.
+  ```js
+  var y= function(){
+  Return 1+1
+  };
+  ```
+  This is simply a function definition; the function is not invoked. The value of y is the function itself; the function can be invoked by running y().  
 
 ### Practical
 1. Write HTML/CSS to draw the following scene (inline css is fine if you want):
