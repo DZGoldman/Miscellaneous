@@ -1,5 +1,3 @@
-
-
 ### 1) Sign Up
   - Name
   - Email
